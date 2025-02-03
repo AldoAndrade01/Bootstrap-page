@@ -1,0 +1,10 @@
+.navbar-custom {
+    background-color: rgb(165, 8, 8); /* Color de fondo rojo */
+}
+
+.header-background {
+    background-image: url('/img/fondo1.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;  /*Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
