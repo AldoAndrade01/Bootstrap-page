@@ -92,8 +92,8 @@
                     <div class="card-header">Search</div>
                     <div class="card-body">
                         <div class="input-group">
-                            <input class="form-control" type="text" placeholder="Enter search term..." />
-                            <button class="btn btn-primary" type="button">Go!</button>
+                            <input class="form-control" type="text" id="search-input" placeholder="Buscar post..." />
+                            <button class="btn btn-primary" id="search-button" type="button" onclick="searchPost()">Buscar</button>
                         </div>
                     </div>
                 </div>
@@ -104,9 +104,12 @@
                     <div class="card-body">
                         <input type="text" id="post-title" class="form-control mb-2" placeholder="Título del post">
                         <textarea id="post-content" class="form-control mb-2" rows="3" placeholder="Contenido del post"></textarea>
+                        <input type="text" id="post-image-url" class="form-control mb-2" placeholder="URL de la imagen (opcional)">
+                        <input type="text" id="post-link" class="form-control mb-2" placeholder="URL del artículo (opcional)">
                         <button class="btn btn-primary" onclick="addPost()">Agregar Post</button>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
