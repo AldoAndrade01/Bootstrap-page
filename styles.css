@@ -8,15 +8,18 @@
 }
 
 .header-background {
-    background-image: url('/img/fondo1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url('/img/fondo.1.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 400px; /* Ajusta la altura del encabezado */
 }
 
 .text-header {
-    color: white;
+    color: white; /* Asegúrate de que el texto sea visible sobre la imagen */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Añade sombra para mejor contraste */
 }
+
 
 .post-card {
     max-width: 500px;
